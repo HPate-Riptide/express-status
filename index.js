@@ -15,7 +15,7 @@
         express = require('express');
         responsePrototype = express.response;
     } catch (e) {
-        throw new Error('express-status required express: please npm install express. ' + e.message);
+        throw new Error('express-status requires express: please npm install express. ' + e.message);
     }
 
     Object.keys(statusCodes).forEach(function(status){
