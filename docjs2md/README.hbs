@@ -1,9 +1,9 @@
 # express-status
 
-Extends express respons prototype with status codes
+Extends express response prototype with status codes helper methods.
 
 [![Build Status](https://travis-ci.org/RiptideCloud/express-status.svg)](https://travis-ci.org/RiptideCloud/express-status)
-
+[![Coverage Status](https://coveralls.io/repos/RiptideCloud/express-status/badge.svg?branch=master)](https://coveralls.io/r/RiptideCloud/express-status?branch=master)
 ## Purpose
 The purpose of this library is to remove magic numbers from your code and define the status codes in one place.
 
@@ -21,6 +21,13 @@ gulp
 unit test only
 ```bash
 gulp test
+```
+
+## Document
+Documentation is managed by commenting code with [jsdoc](http://usejsdoc.org/) and editing the [template](https://github.com/RiptideCloud/express-status/blob/master/docjs2md/README.hbs).
+You can regenerate the [README.md](https://github.com/RiptideCloud/express-status/blob/master/README.md) by executing
+```bash
+gulp doc
 ```
 
 {{#module name="express-status" ~}}
